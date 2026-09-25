@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Sum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Title on the website -->
+    <h1 class="centered-text">Hello Welcome To My Two Sum Calculator</h1>
+
+    <p class="centered-text">
+        Just type your number and press PUSH to add it to the array.
+        You can also press POP to remove the last number put into the array.
+        Then enter a target number and this site will help find the indexes
+        of the two numbers that add up to your target if it exists.
+    </p>
+
+    <!--Showing the calculator-->
+    <div class="calculator">
+
+        <h2>Current Array</h2>
+        <p id="arrayDisplay">[ ]</p>
+
+        <h2>Add A Number</h2>
+
+        <input type="number" id="numberInput" placeholder="Enter a number">
+
+        <button id="pushButton">PUSH</button>
+
+        <button id="popButton">POP</button>
+
+        <h2>Target Number</h2>
+
+        <input type="number" id="targetInput" placeholder="Enter target">
+
+        <h2>Result</h2>
+
+        <p id="result">No result yet</p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

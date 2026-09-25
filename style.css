@@ -1,0 +1,46 @@
+/* Used to center the text */
+.centered-text {
+    text-align: center;
+}
+
+/* Main calculator box */
+.calculator {
+    width: 400px;
+    max-width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* Inputs */
+input {
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Current array display */
+#arrayDisplay {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Making it mobile friendly */
+@media (max-width: 500px) {
+
+    input {
+        width: 90%;
+    }
+
+    button {
+        width: 90%;
+    }
+}
