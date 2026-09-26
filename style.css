@@ -1,3 +1,9 @@
+/*Color of the site*/
+body {
+    background-color: grey;
+    color: black;
+}
+
 /* Used to center the text */
 .centered-text {
     text-align: center;
@@ -12,6 +18,8 @@
     text-align: center;
     border: 2px solid black;
     border-radius: 10px;
+    background-color: rgb(24, 34, 53);
+    color: whitesmoke;
 }
 
 /* Inputs */
@@ -31,6 +39,17 @@ button {
 #arrayDisplay {
     font-size: 20px;
     font-weight: bold;
+}
+
+/*Color for the buttons*/
+#pushButton {
+    background-color: green;
+    color: white;
+}
+
+#popButton {
+    background-color: red;
+    color: white;
 }
 
 /* Making it mobile friendly */
